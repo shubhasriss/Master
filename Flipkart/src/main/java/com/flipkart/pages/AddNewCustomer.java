@@ -24,6 +24,9 @@ public class AddNewCustomer
 	{
 		createcustomerbtn.click();
 	
+		
+		
+		
 	
 	
 	}
