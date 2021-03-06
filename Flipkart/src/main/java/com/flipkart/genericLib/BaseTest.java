@@ -20,6 +20,11 @@ public class BaseTest implements IAutoConstants {
 				 driver=new ChromeDriver();
 				 driver.manage().window().maximize();
 			 }
+			 
+			 
+			 
+			 
+			 
 			 else if(browser.equals("Firefox"))
 			 {
 				 System.setProperty(GECKO_KEY,GECKO_VALUE);
@@ -36,9 +41,8 @@ public class BaseTest implements IAutoConstants {
 		{
 			driver.quit();
 			
-			
-			
-			
+	
+		
 		}
 
 	}
