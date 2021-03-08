@@ -7,6 +7,9 @@ package com.flipkart.pages;
 
 
 	public class LoginPage {
+		
+		
+		
 		@FindBy(name="username") private WebElement untb;
 		@FindBy(name="pwd") private WebElement pwtb;
 		@FindBy(xpath="//input[@type='submit']") private WebElement loginBtn;
